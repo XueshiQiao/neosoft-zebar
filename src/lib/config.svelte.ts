@@ -133,6 +133,14 @@ export interface ProvidersConfig {
    * Whether to enable error logging for providers.
    */
   enableErrorLogging: boolean;
+
+  /**
+   * Optional weather configuration.
+   */
+  weather?: {
+    latitude?: number;
+    longitude?: number;
+  };
 }
 
 export type RefreshIntervals = {

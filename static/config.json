@@ -18,13 +18,17 @@
       "weather": 900000,
       "network": 2000
     },
+    "weather": {
+      "latitude": null,
+      "longitude": null
+    },
     "enableErrorLogging": false
   },
   "backgroundEffect": "inherit",
   "enableAutoTiling": true,
   "clickThroughByDefault": false,
-  "showShutdownButton": true,
-  "showHeartButton": true,
+  "showShutdownButton": false,
+  "showHeartButton": false,
   "showCpuSection": true,
   "showMemorySection": true,
   "showBatterySection": true,
@@ -33,6 +37,6 @@
   "showWeatherSection": true,
   "useCelsiusByDefault": true,
   "showFullDateByDefault": false,
-  "use24hClock": "auto",
+  "use24hClock": true,
   "showSeconds": false
 }

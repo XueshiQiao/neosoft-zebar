@@ -39,6 +39,17 @@
             }
           },
           "type": "object"
+        },
+        "weather": {
+          "properties": {
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            }
+          },
+          "type": "object"
         }
       },
       "type": "object"

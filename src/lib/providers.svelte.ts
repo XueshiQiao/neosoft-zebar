@@ -39,6 +39,13 @@ async function initProviders() {
     providerConfig.battery.refreshInterval = refreshIntervals.battery;
     providerConfig.weather.refreshInterval = refreshIntervals.weather;
     providerConfig.network.refreshInterval = refreshIntervals.network;
+
+    if (config.providersConfig.weather) {
+      // @ts-ignore
+      providerConfig.weather.latitude = config.providersConfig.weather.latitude;
+      // @ts-ignore
+      providerConfig.weather.longitude = config.providersConfig.weather.longitude;
+    }
   } catch (error) {
     console.error("Error initializing providers:", error);
     // Can continue with default config

@@ -14,7 +14,10 @@
     "autotiler",
     "volume"
   ],
-  "previewImages": ["misc/fullscreen.png", "misc/taskbar-integration.png"],
+  "previewImages": [
+    "misc/fullscreen.png",
+    "misc/taskbar-integration.png"
+  ],
   "repositoryUrl": "https://github.com/blaiyz/neosoft-zebar",
   "widgets": [
     {
@@ -25,7 +28,9 @@
       "focused": false,
       "resizable": false,
       "transparent": true,
-      "includeFiles": ["**"],
+      "includeFiles": [
+        "**"
+      ],
       "caching": {
         "defaultDuration": 604800,
         "rules": []
