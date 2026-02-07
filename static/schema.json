@@ -153,6 +153,10 @@
     },
     "useCelsiusByDefault": {
       "type": "boolean"
+    },
+    "useWorkspaceDisplayName": {
+      "description": "Whether to use the workspace display name instead of the name.",
+      "type": "boolean"
     }
   },
   "type": "object"

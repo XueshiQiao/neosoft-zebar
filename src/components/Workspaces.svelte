@@ -71,7 +71,9 @@
             callback={() =>
               glazewm!.runCommand(`focus --workspace ${workspace.name}`)}
           >
-            {workspace.name}
+            {config.useWorkspaceDisplayName
+              ? (workspace.displayName ?? workspace.name)
+              : workspace.name}
           </Button>
         </div>
       {/each}

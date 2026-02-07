@@ -98,6 +98,7 @@ export interface Config {
   useCelsiusByDefault: boolean;
   use24hClock: true | false | "auto";
   showSeconds: boolean;
+  useWorkspaceDisplayName: boolean;
 }
 
 export type AttachmentDirection = "top" | "bottom" | "floating";

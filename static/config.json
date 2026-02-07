@@ -38,5 +38,6 @@
   "useCelsiusByDefault": true,
   "showFullDateByDefault": false,
   "use24hClock": true,
-  "showSeconds": false
+  "showSeconds": false,
+  "useWorkspaceDisplayName": true
 }
